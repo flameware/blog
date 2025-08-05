@@ -10,5 +10,7 @@ export default defineConfig({
       plugins: [tailwindcss()]
   },
 
-  integrations: [mdx()]
+  integrations: [mdx()],
+  site: 'https://flameware.github.io/blog',
+  base: '/blog'
 });
