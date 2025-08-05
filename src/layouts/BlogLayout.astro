@@ -61,7 +61,7 @@ const { title = SiteOptions.siteTitle, description = SiteOptions.siteSubTitle } 
       <slot />
     </main>
 
-    <script is:inline src="/scripts/theme-toggle.js"></script>
+    <script is:inline src={`${import.meta.env.BASE_URL}scripts/theme-toggle.js`}></script>
   </body>
 </html>
 
