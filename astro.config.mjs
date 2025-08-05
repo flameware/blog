@@ -11,6 +11,10 @@ export default defineConfig({
   },
 
   integrations: [mdx()],
-  site: 'https://flameware.github.io/blog',
-  base: '/blog'
+  site: 'https://flameware.github.io/',
+  base: '/blog',
+  output: 'static',
+  build: {
+    assets: 'assets'
+  }
 });
