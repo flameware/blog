@@ -13,8 +13,8 @@ export default defineConfig({
   integrations: [mdx()],
   site: 'https://flameware.github.io/',
   base: '/blog',
-  output: 'static',
+  trailingSlash: 'always',
   build: {
-    assets: 'assets'
+    format: 'directory'
   }
 });
